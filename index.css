@@ -65,8 +65,7 @@ li{
 }
 /* Main */
 main{
-    background-color: red;
-    margin-top: 30px;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,14 +73,12 @@ main{
 }
 
 main > section{
-    background-color: blue;
     display: flex;
     justify-content: space-between;
 }
 
 .photoContainer{
     width: 32.5%;
-    background-color: green;
     position: relative;
 }
 
@@ -126,4 +123,12 @@ main > section{
 
 .posRel{
     position: relative;
+}
+
+#riga2{
+    margin-top: 30px;
+}
+
+.marca{
+    margin-top: 3px;
 }
