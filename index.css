@@ -24,6 +24,9 @@ header{
     justify-content: center;
     color: white;
     font-size: 0.8em;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 header > nav{
@@ -65,11 +68,12 @@ li{
 }
 /* Main */
 main{
-    padding: 50px 0;
+    padding-top: 100.469px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    padding-bottom: 50px;
 }
 
 main > section{
@@ -131,6 +135,22 @@ main > section{
 
 .marca{
     margin-top: 3px;
+}
+
+#img1b, #img2b, #img3b, #img4b, #img5b, #img6b{
+    display: none;
+}
+
+#slot1:hover #img1, #slot2:hover #img2, #slot3:hover #img3, #slot4:hover #img4, #slot5:hover #img5, #slot6:hover #img6{
+    display: none;
+}
+
+#slot1:hover #img1b, #slot2:hover #img2b, #slot3:hover #img3b, #slot4:hover #img4b, #slot5:hover #img5b, #slot6:hover #img6b{
+    display: block;
+}
+
+.hearts:hover{
+    color: red;
 }
 /* Footer */
 footer{
